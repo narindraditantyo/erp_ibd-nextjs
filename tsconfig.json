@@ -13,7 +13,9 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@shadcn-ui/*": ["./components/@shadcn-ui/*"],
+      "@core-ui/*": ["./components/@core-ui/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
